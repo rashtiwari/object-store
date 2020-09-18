@@ -1,7 +1,54 @@
-{
-  users:[
-    {"name":test,
-     "age":30
-    }
+[
+  {
+    "name": "S1",
+    "key": "S1",
+    "children": [
+      {
+        "name": "S1a",
+        "key": "S1a",
+        "children": [
+          {
+            "name": "S1aa",
+            "key": "S1aa"
+          },
+          {
+            "name": "S1bb",
+            "key": "S1bb"
+          }
+        ]
+      },
+      {
+        "name": "S1b",
+        "key": "S1b"
+      }
+    ]
+  },
+  {
+    "name": "S2",
+    "key": "S2",
+    "children": [
+      {
+        "name": "S2a",
+        "key": "S2a"
+      }
+    ]
+  },
+  {
+    "name": "S3",
+    "key": "S3",
+    "children": [
+      {
+        "name": "S3a",
+        "key": "S3a"
+      },
+      {
+        "name": "S3b",
+        "key": "S3b"
+      },
+      {
+        "name": "S3c",
+        "key": "S3c"
+      }
+    ]
+  }
 ]
-}
